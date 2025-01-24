@@ -1,7 +1,7 @@
 @extends('app')
 @section('title', 'Clients')
 @section('create')
-    <a class="bg-sky-600 rouded-lg py-2 px-5 rounded-lg text-gray-200 font-medium " href='{{route('clients.create')}}'><i class="fa-solid fa-plus pr-2"></i>Client</a>
+    <a class="bg-sky-600 rouded-lg py-2 px-5 rounded-lg text-white dark:text-gray-100 font-medium "  href='{{route('clients.create')}}'><i class="fa-solid fa-plus pr-2"></i>Client</a>
 @endsection
 
 @section('content')

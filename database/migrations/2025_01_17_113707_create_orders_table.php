@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('client_id')->constrained()->onDelete('cascade');
             $table->float('amount');
-            $table->string('status');
+            $table->string(column: 'status');
             $table->date('date');
             $table->timestamps();
         });

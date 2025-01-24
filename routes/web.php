@@ -17,6 +17,10 @@ Route::post('/cart/add/{id}', [CartController::class, 'add'])->name('cart.add');
 
 Route::get('/cart/show', [CartController::class, 'show'])->name('cart.show');
 
+Route::get('/cart/show', [CartController::class, 'show'])->name('cart.show');
+
+Route::get('/products/item/{id}', [ProductController::class, 'item'])->name('products.item');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

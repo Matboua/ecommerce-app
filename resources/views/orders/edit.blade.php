@@ -1,7 +1,7 @@
 @extends('app')
 @section('title', 'Create Product')
 @section('back-arrow')
-<a href="{{route('products.index')}}"><i class="dark:bg-gray-200 p-3 rounded-full fa-solid fa-arrow-left"></i></a>
+<a href="{{route('products.index')}}"><i class="dark:bg-gray-100 bg-gray-900 dark:text-gray-900 text-gray-100 p-3 rounded-full fa-solid fa-arrow-left"></i></a>
 @endsection
 
 @section('content')

@@ -20,7 +20,7 @@
             {{-- Product Strat --}}
             @foreach ($products as $item)
                 <div
-                    class="relative dark:bg-gray-900 flex max-w-xs flex-col items-center overflow-hidden rounded-lg border dark:border-gray-800 border-gray-100 bg-white shadow-md group">
+                    class="relative dark:bg-gray-900 flex max-w-xs flex-col items-center overflow-hidden rounded-lg border dark:border-gray-800 border-gray-100 dark:bg-gray-900 bg-white shadow-md group">
                     <a class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
                         href="{{ route('products.item', $item->id) }}">
                         <img class="object-cover  group-hover:opacity-100 transition-opacity duration-300 bg-white"
